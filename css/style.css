@@ -180,3 +180,10 @@ footer {
     margin-top: 2.5rem !important;
     margin-bottom: 2.5rem !important;
 }
+
+.banner-header {
+    line-height: 0;  /* removes extra spacing below image */
+}
+.banner-header img {
+    display: block;
+}
