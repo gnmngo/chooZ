@@ -187,3 +187,18 @@ footer {
 .banner-header img {
     display: block;
 }
+
+/* Sticky Header */
+.sticky-header {
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    background-color: #FFFFFF;               /* Matches your light theme */
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
+    transition: box-shadow 0.2s ease;
+}
+
+/* Optional: Slightly stronger shadow when sticky (adds depth) */
+.sticky-header.sticking {
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+}
