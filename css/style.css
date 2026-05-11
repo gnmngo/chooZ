@@ -188,17 +188,23 @@ footer {
     display: block;
 }
 
-/* Sticky Header */
+/* Sticky header container */
 .sticky-header {
     position: sticky;
     top: 0;
-    z-index: 1000;
-    background-color: #FFFFFF;               /* Matches your light theme */
-    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.04);
-    transition: box-shadow 0.2s ease;
+    z-index: 1030;
+    background-color: #FFFFFF;   /* Important: prevents content from showing through */
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Optional: Slightly stronger shadow when sticky (adds depth) */
-.sticky-header.sticking {
-    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+/* Ensure banner image behaves well */
+.banner-header img {
+    display: block;         /* Removes extra space below image */
+    width: 100%;
+    height: auto;
+}
+
+/* Optional: Add a subtle transition when sticky */
+.sticky-header {
+    transition: box-shadow 0.2s ease;
 }
