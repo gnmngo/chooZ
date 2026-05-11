@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChooZ – Heuristic Evaluation</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">🍃 ChooZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="data-gathering.html">Data Gathering</a></li>
+                <li class="nav-item"><a class="nav-link active" href="heuristic.html">Heuristic Evaluation</a></li>
+                <li class="nav-item"><a class="nav-link" href="results.html">Testing Results</a></li>
+                <li class="nav-item"><a class="nav-link" href="findings.html">Findings</a></li>
+                <li class="nav-item"><a class="nav-link" href="recommendations.html">Recommendations</a></li>
+                <li class="nav-item"><a class="nav-link" href="reflections.html">Reflections</a></li>
+                <li class="nav-item"><a class="nav-link" href="walkthrough.html">Walkthrough</a></li>
+                <li class="nav-item"><a class="nav-link" href="video.html">Video Demo</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <h1>Heuristic Evaluation (Nielsen’s 10 Heuristics)</h1>
+    <p>Each group member independently evaluated the ChooZ prototype. Ratings: 0=no problem, 1=cosmetic, 2=minor, 3=major, 4=catastrophic.</p>
+
+    <div class="table-responsive">
+        <table class="table table-bordered table-striped">
+            <thead class="table-primary">
+                <tr><th>Heuristic</th><th>Gene</th><th>Carol</th><th>Julie</th><th>Exequiel</th><th>Michelle</th><th>Avg</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>1. Visibility of system status</td><td>2</td><td>2</td><td>1</td><td>2</td><td>1</td><td>1.6</td></tr>
+                <tr><td>2. Match with real world</td><td>1</td><td>1</td><td>2</td><td>1</td><td>1</td><td>1.2</td></tr>
+                <tr><td>3. User control & freedom</td><td>3</td><td>2</td><td>3</td><td>2</td><td>2</td><td>2.4</td></tr>
+                <tr><td>4. Consistency & standards</td><td>1</td><td>2</td><td>1</td><td>2</td><td>1</td><td>1.4</td></tr>
+                <tr><td>5. Error prevention</td><td>2</td><td>1</td><td>2</td><td>2</td><td>1</td><td>1.6</td></tr>
+                <tr><td>6. Recognition rather than recall</td><td>2</td><td>1</td><td>1</td><td>2</td><td>2</td><td>1.6</td></tr>
+                <tr><td>7. Flexibility & efficiency</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2</td><td>2.0</td></tr>
+                <tr><td>8. Aesthetic & minimalist design</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1</td><td>1.0</td></tr>
+                <tr><td>9. Help users recognize & recover</td><td>3</td><td>2</td><td>2</td><td>3</td><td>2</td><td>2.4</td></tr>
+                <tr><td>10. Help & documentation</td><td>2</td><td>2</td><td>2</td><td>2</td><td>1</td><td>1.8</td></tr>
+            </tbody>
+        </table>
+    </div>
+
+    <h3 class="mt-4">📎 Individual Workbooks (PDF)</h3>
+    <ul class="list-group">
+        <li class="list-group-item"><a href="pdfs/Gene_Heuristic.pdf" class="btn btn-primary btn-sm">📄 Gene Vincent Mañago</a></li>
+        <li class="list-group-item"><a href="pdfs/Carol_Heuristic.pdf" class="btn btn-primary btn-sm">📄 Carol Ann Castillo</a></li>
+        <li class="list-group-item"><a href="pdfs/Julie_Heuristic.pdf" class="btn btn-primary btn-sm">📄 Julie Anne Egagamao</a></li>
+        <li class="list-group-item"><a href="pdfs/Exequiel_Heuristic.pdf" class="btn btn-primary btn-sm">📄 Exequiel Celedonio</a></li>
+        <li class="list-group-item"><a href="pdfs/Michelle_Heuristic.pdf" class="btn btn-primary btn-sm">📄 Michelle Abalos</a></li>
+    </ul>
+    <p class="text-muted mt-3">⚠️ Place actual PDF workbooks in the <code>pdfs/</code> folder.</p>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Group 7 – Partido State University | HCI2</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

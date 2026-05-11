@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChooZ – Discussion of Findings</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">🍃 ChooZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="data-gathering.html">Data Gathering</a></li>
+                <li class="nav-item"><a class="nav-link" href="heuristic.html">Heuristic Evaluation</a></li>
+                <li class="nav-item"><a class="nav-link" href="results.html">Testing Results</a></li>
+                <li class="nav-item"><a class="nav-link active" href="findings.html">Findings</a></li>
+                <li class="nav-item"><a class="nav-link" href="recommendations.html">Recommendations</a></li>
+                <li class="nav-item"><a class="nav-link" href="reflections.html">Reflections</a></li>
+                <li class="nav-item"><a class="nav-link" href="walkthrough.html">Walkthrough</a></li>
+                <li class="nav-item"><a class="nav-link" href="video.html">Video Demo</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <h1>Discussion of Findings</h1>
+    <p>By combining the heuristic evaluation and usability testing, we identified three major usability issues that affect the user experience of ChooZ.</p>
+
+    <div class="row mt-4">
+        <div class="col-md-12">
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">1. Lack of Feedback After Saving a Decision</div>
+                <div class="card-body">
+                    <p><strong>Related heuristic:</strong> 1 – Visibility of system status.</p>
+                    <p>Several participants mentioned that after tapping the “Save” button, they were unsure whether the decision was logged. The system provides no visual confirmation (e.g., toast message or screen change). This violates the principle of keeping users informed about what is happening.</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">2. Random Pick Overlay Cannot Be Closed Easily</div>
+                <div class="card-body">
+                    <p><strong>Related heuristic:</strong> 3 – User control and freedom.</p>
+                    <p>The random pick overlay lacked a visible close (X) button. Users felt trapped and had to tap outside the overlay to close it – an action that was not obvious. This reduces user confidence and control.</p>
+                </div>
+            </div>
+            <div class="card mb-3">
+                <div class="card-header bg-primary text-white">3. Missing Legend for Color‑Coded Categories</div>
+                <div class="card-body">
+                    <p><strong>Related heuristics:</strong> 2 – Match with real world, 6 – Recognition rather than recall.</p>
+                    <p>While participants appreciated the color‑coded category chips (orange = Food, blue = Work, etc.), they did not understand what each color meant without trial and error. A simple legend on the Home screen would remove guesswork.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Group 7 – Partido State University | HCI2</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>

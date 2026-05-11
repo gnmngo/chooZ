@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ChooZ – Recommendations</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+
+<nav class="navbar navbar-expand-lg bg-dark" data-bs-theme="dark">
+    <div class="container">
+        <a class="navbar-brand" href="index.html">🍃 ChooZ</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav ms-auto">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="data-gathering.html">Data Gathering</a></li>
+                <li class="nav-item"><a class="nav-link" href="heuristic.html">Heuristic Evaluation</a></li>
+                <li class="nav-item"><a class="nav-link" href="results.html">Testing Results</a></li>
+                <li class="nav-item"><a class="nav-link active" href="findings.html">Findings</a></li>
+                <li class="nav-item"><a class="nav-link active" href="recommendations.html">Recommendations</a></li>
+                <li class="nav-item"><a class="nav-link" href="reflections.html">Reflections</a></li>
+                <li class="nav-item"><a class="nav-link" href="walkthrough.html">Walkthrough</a></li>
+                <li class="nav-item"><a class="nav-link" href="video.html">Video Demo</a></li>
+            </ul>
+        </div>
+    </div>
+</nav>
+
+<div class="container my-5">
+    <h1>Recommendations for Improvement</h1>
+    <p>Based on the heuristic evaluation and usability test findings, we propose the following design improvements for the next iteration of ChooZ.</p>
+
+    <div class="row">
+        <div class="col-md-6">
+            <div class="card mb-3 h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">✅ Add a Success Toast Notification</h5>
+                    <p class="card-text">After saving a decision, display a temporary message: “Decision saved!” and automatically return to the Home screen. This provides immediate feedback and reassures the user.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3 h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">✅ Implement a Visible Close Button on Overlays</h5>
+                    <p class="card-text">Add a clearly labeled “X” or “Close” button to the Random Pick overlay. Also allow tapping outside the overlay to close it, but ensure the primary close control is obvious.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3 h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">✅ Include a Category Color Legend</h5>
+                    <p class="card-text">Add a small legend on the Home screen (e.g., below the Today’s Overview card) showing each category name and its associated color chip. This eliminates confusion and improves learnability.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-6">
+            <div class="card mb-3 h-100">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">✅ Reduce Number of Required Fields</h5>
+                    <p class="card-text">Make the “Notes” field optional and move it to the bottom. Consider combining “Options Considered” and “Chosen Option” into a single selection interface to speed up logging.</p>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-12">
+            <div class="card mb-3">
+                <div class="card-body">
+                    <h5 class="card-title text-primary">✅ Onboarding Tip for Random Pick</h5>
+                    <p class="card-text">During first-time use, show a one‑time tooltip explaining that the Random Pick button can help when indecision strikes.</p>
+                    <h5 class="card-title text-primary mt-3">📌 Future Enhancements</h5>
+                    <ul>
+                        <li>Dark mode toggle</li>
+                        <li>Weekly summary PDF export</li>
+                        <li>Custom category color picker</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<footer>
+    <div class="container">
+        <p>© 2026 Group 7 – Partido State University | HCI2</p>
+    </div>
+</footer>
+
+<script src="js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
