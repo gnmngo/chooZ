@@ -1,5 +1,6 @@
 /* Minimalist & Aesthetic Redesign for ChooZ */
 /* Overrides Bootstrap defaults for a cleaner, lighter interface */
+/* Includes sticky header (navbar + banner) */
 
 :root {
     /* Light & Airy Color Palette - 2 accent colors max */
@@ -181,30 +182,17 @@ footer {
     margin-bottom: 2.5rem !important;
 }
 
-.banner-header {
-    line-height: 0;  /* removes extra spacing below image */
-}
-.banner-header img {
-    display: block;
-}
-
-/* Sticky header container */
+/* ===== STICKY HEADER (navbar + banner) ===== */
 .sticky-header {
     position: sticky;
     top: 0;
     z-index: 1030;
-    background-color: #FFFFFF;   /* Important: prevents content from showing through */
+    background-color: var(--surface-white);
     box-shadow: 0 2px 10px rgba(0, 0, 0, 0.05);
 }
 
-/* Ensure banner image behaves well */
 .banner-header img {
-    display: block;         /* Removes extra space below image */
+    display: block;
     width: 100%;
     height: auto;
-}
-
-/* Optional: Add a subtle transition when sticky */
-.sticky-header {
-    transition: box-shadow 0.2s ease;
 }
